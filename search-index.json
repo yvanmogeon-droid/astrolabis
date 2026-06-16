@@ -1,0 +1,41 @@
+[{
+"title": "Marque sur une plaque de fonte",
+"question": "Que signifie cette marque ?",
+"category": "Marque",
+"status": "ACTIVE",
+"statusLabel": "En cours",
+"coldCase": false,
+"location": "",
+"tags": ["fonte","poincon","fonderie","industrie"],
+"url": "/enquete/marque-fonderie-inconnue/"
+},{
+"title": "Objet en cuivre à manivelle",
+"question": "À quoi servait cet objet ?",
+"category": "Objet",
+"status": "IN_REVIEW",
+"statusLabel": "En vérification",
+"coldCase": false,
+"location": "",
+"tags": ["cuivre","cafe","ustensile"],
+"url": "/enquete/objet-cuivre-manivelle/"
+},{
+"title": "Tache sombre récurrente sur le lac",
+"question": "Qu'est-ce que c'est ?",
+"category": "Phénomène",
+"status": "RESOLVED",
+"statusLabel": "Classé",
+"coldCase": false,
+"location": "",
+"tags": ["lac","eau","upwelling","limnologie"],
+"url": "/enquete/tache-sombre-lac/"
+},{
+"title": "Petite structure de pierre en altitude",
+"question": "Qu'est-ce que cette ruine ?",
+"category": "Structure",
+"status": "ACTIVE",
+"statusLabel": "En cours",
+"coldCase": true,
+"location": "",
+"tags": ["pierre-seche","altitude","pastoralisme"],
+"url": "/enquete/structure-pierre-altitude/"
+}]
