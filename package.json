@@ -1,0 +1,16 @@
+{
+  "name": "astrolabis",
+  "version": "0.2.0",
+  "description": "Astrolabis — memoire du reel. Site statique Eleventy. Subordonne a l'Etat fige.",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "clean": "rm -rf _site",
+    "verify": "rm -rf _site && eleventy && node scripts/verify-invariants.js"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
