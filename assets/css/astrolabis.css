@@ -170,3 +170,19 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; }
 .logo { display: inline-flex; align-items: center; gap: 10px; }
 .logo-mark { width: 40px; height: 40px; border-radius: 50%; display: block; }
 .site-footer .logo-mark { width: 32px; height: 32px; margin: 0 auto 8px; opacity: 0.9; }
+
+/* ---- Accueil : exploration par menus deroulants (18/06) ---- */
+.explore-intro { font-size: 1.05rem; color: var(--texte-doux); margin: 40px 0 18px; }
+.selecteurs { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 6px; }
+.sel { display: flex; flex-direction: column; gap: 6px; font-size: 0.78rem; letter-spacing: 0.6px; text-transform: uppercase; color: var(--texte-faible); }
+.sel select { font-family: var(--sans); font-size: 1rem; color: var(--texte); background: var(--bg-2); border: 1px solid var(--ligne); border-radius: 6px; padding: 11px 14px; min-width: 240px; cursor: pointer; }
+.sel select:hover { border-color: var(--accent); }
+.explore-prompt { color: var(--texte-faible); font-style: italic; margin: 22px 0 30px; }
+.liste-resultats { list-style: none; padding: 0; margin: 18px 0 0; border-top: 1px solid var(--ligne); }
+.liste-resultats .res-item a { display: flex; align-items: center; gap: 16px; padding: 16px 4px; border-bottom: 1px solid var(--ligne); color: inherit; }
+.liste-resultats .res-item a:hover { background: var(--bg-3); text-decoration: none; }
+.res-type { font-size: 0.72rem; letter-spacing: 0.8px; text-transform: uppercase; color: var(--texte-faible); min-width: 96px; }
+.res-titre { font-family: var(--serif); font-size: 1.12rem; color: var(--texte); flex: 1; }
+.tout-voir { text-align: center; margin: 44px 0 12px; }
+.tout-voir a { color: var(--texte-faible); font-size: 0.9rem; }
+.tout-voir a:hover { color: var(--accent); }

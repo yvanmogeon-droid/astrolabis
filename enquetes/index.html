@@ -46,8 +46,13 @@
   <h1 class="section-titre" style="margin-top:0;">Les enquêtes</h1>
 
   <div class="filtres" id="filtres">
+    <div class="filtre-rangee" data-axe="sujet">
+      <span class="lab">Sujet</span>
+      <button class="chip" data-val="" aria-pressed="true">Tous</button>
+      <button class="chip" data-val="Montagne" aria-pressed="false">Montagne</button><button class="chip" data-val="Géologie" aria-pressed="false">Géologie</button><button class="chip" data-val="Histoire &amp; patrimoine" aria-pressed="false">Histoire &amp; patrimoine</button><button class="chip" data-val="Architecture" aria-pressed="false">Architecture</button><button class="chip" data-val="Faune &amp; nature" aria-pressed="false">Faune &amp; nature</button><button class="chip" data-val="Archéologie" aria-pressed="false">Archéologie</button><button class="chip" data-val="Autre" aria-pressed="false">Autre</button>
+    </div>
     <div class="filtre-rangee" data-axe="theme">
-      <span class="lab">Thème</span>
+      <span class="lab">Type</span>
       <button class="chip" data-val="" aria-pressed="true">Tous</button>
       <button class="chip" data-val="Objet" aria-pressed="false">Objet</button><button class="chip" data-val="Structure" aria-pressed="false">Structure</button><button class="chip" data-val="Macro" aria-pressed="false">Macro</button><button class="chip" data-val="Marque" aria-pressed="false">Marque</button><button class="chip" data-val="Lieu" aria-pressed="false">Lieu</button><button class="chip" data-val="Phenomene" aria-pressed="false">Phénomène</button><button class="chip" data-val="Scene" aria-pressed="false">Scène</button><button class="chip" data-val="Autre" aria-pressed="false">Autre</button>
     </div>
@@ -61,12 +66,13 @@
 
   <div class="grille" id="grille">
     
-<div class="carte" data-theme="Marque" data-statut="ACTIVE">
+
+<div class="carte" data-theme="Marque" data-statut="ACTIVE" data-sujets="Histoire &amp; patrimoine,Montagne">
   <a href="/astrolabis/enquete/borne-frontiere-sarde/">
-    <img src="https://placehold.co/1200x600/221b16/B85C00?text=Photo+a+venir" alt="La pierre plantée dans la forêt" loading="lazy">
+    
     <div class="carte-body">
       <div class="theme">Marque</div>
-      <div class="question">Que signifie cette marque ?</div>
+      <div class="question">La pierre plantée dans la forêt</div>
       
 <span class="statut"><span class="dot dot-vert"></span>En cours</span>
 
@@ -74,12 +80,13 @@
   </a>
 </div>
 
-<div class="carte" data-theme="Phenomene" data-statut="ACTIVE">
+
+<div class="carte" data-theme="Phenomene" data-statut="ACTIVE" data-sujets="Géologie,Montagne">
   <a href="/astrolabis/enquete/desert-de-plate/">
-    <img src="https://placehold.co/1200x600/221b16/B85C00?text=Photo+a+venir" alt="Le désert lunaire face au Mont-Blanc" loading="lazy">
+    
     <div class="carte-body">
       <div class="theme">Phénomène</div>
-      <div class="question">Qu&#39;est-ce que c&#39;est ?</div>
+      <div class="question">Le désert lunaire face au Mont-Blanc</div>
       
 <span class="statut"><span class="dot dot-vert"></span>En cours</span>
 
@@ -87,12 +94,13 @@
   </a>
 </div>
 
-<div class="carte" data-theme="Scene" data-statut="ACTIVE">
+
+<div class="carte" data-theme="Scene" data-statut="ACTIVE" data-sujets="Géologie,Montagne">
   <a href="/astrolabis/enquete/empreintes-vieux-emosson/">
-    <img src="https://placehold.co/1200x600/221b16/B85C00?text=Photo+a+venir" alt="Les pas gravés dans la dalle, à 2 400 m" loading="lazy">
+    
     <div class="carte-body">
       <div class="theme">Scène</div>
-      <div class="question">Qu&#39;est-ce qui s&#39;est passé ici ?</div>
+      <div class="question">Les pas gravés dans la dalle, à 2 400 m</div>
       
 <span class="statut"><span class="dot dot-vert"></span>En cours</span>
 
@@ -100,12 +108,13 @@
   </a>
 </div>
 
-<div class="carte" data-theme="Structure" data-statut="ACTIVE">
+
+<div class="carte" data-theme="Structure" data-statut="ACTIVE" data-sujets="Architecture,Histoire &amp; patrimoine">
   <a href="/astrolabis/enquete/barriere-esseillon/">
-    <img src="https://placehold.co/1200x600/221b16/B85C00?text=Photo+a+venir" alt="La forteresse qui n&#39;a jamais tiré un coup de canon" loading="lazy">
+    
     <div class="carte-body">
       <div class="theme">Structure</div>
-      <div class="question">Qu&#39;est-ce que cette ruine ?</div>
+      <div class="question">La forteresse qui n&#39;a jamais tiré un coup de canon</div>
       
 <span class="statut"><span class="dot dot-vert"></span>En cours</span>
 
@@ -113,12 +122,13 @@
   </a>
 </div>
 
-<div class="carte" data-theme="Phenomene" data-statut="ACTIVE">
+
+<div class="carte" data-theme="Phenomene" data-statut="ACTIVE" data-sujets="Géologie,Montagne">
   <a href="/astrolabis/enquete/four-cristaux-mont-blanc/">
-    <img src="https://placehold.co/1200x600/221b16/B85C00?text=Photo+a+venir" alt="Le « four » caché dans la falaise du Mont-Blanc" loading="lazy">
+    
     <div class="carte-body">
       <div class="theme">Phénomène</div>
-      <div class="question">Qu&#39;est-ce que c&#39;est ?</div>
+      <div class="question">Le « four » caché dans la falaise du Mont-Blanc</div>
       
 <span class="statut"><span class="dot dot-vert"></span>En cours</span>
 
@@ -126,12 +136,13 @@
   </a>
 </div>
 
-<div class="carte" data-theme="Phenomene" data-statut="ACTIVE">
+
+<div class="carte" data-theme="Phenomene" data-statut="ACTIVE" data-sujets="Faune &amp; nature,Montagne">
   <a href="/astrolabis/enquete/gypaete-barbu-bargy/">
-    <img src="https://placehold.co/1200x600/221b16/B85C00?text=Photo+a+venir" alt="L&#39;oiseau de 3 mètres qui mange des os" loading="lazy">
+    
     <div class="carte-body">
       <div class="theme">Phénomène</div>
-      <div class="question">Qu&#39;est-ce que c&#39;est ?</div>
+      <div class="question">L&#39;oiseau de 3 mètres qui mange des os</div>
       
 <span class="statut"><span class="dot dot-vert"></span>En cours</span>
 
@@ -139,12 +150,13 @@
   </a>
 </div>
 
-<div class="carte" data-theme="Scene" data-statut="ACTIVE">
+
+<div class="carte" data-theme="Scene" data-statut="ACTIVE" data-sujets="Histoire &amp; patrimoine,Architecture">
   <a href="/astrolabis/enquete/ecole-horlogerie-cluses/">
-    <img src="https://placehold.co/1200x600/221b16/B85C00?text=Photo+a+venir" alt="Pourquoi cette petite ville a fabriqué des montres" loading="lazy">
+    
     <div class="carte-body">
       <div class="theme">Scène</div>
-      <div class="question">Qu&#39;est-ce qui s&#39;est passé ici ?</div>
+      <div class="question">Pourquoi cette petite ville a fabriqué des montres</div>
       
 <span class="statut"><span class="dot dot-vert"></span>En cours</span>
 
@@ -152,12 +164,13 @@
   </a>
 </div>
 
-<div class="carte" data-theme="Lieu" data-statut="ACTIVE">
+
+<div class="carte" data-theme="Lieu" data-statut="ACTIVE" data-sujets="Histoire &amp; patrimoine">
   <a href="/astrolabis/enquete/nom-cluses-clusa/">
-    <img src="https://placehold.co/1200x600/221b16/B85C00?text=Photo+a+venir" alt="Le nom qui veut dire « fermé »" loading="lazy">
+    
     <div class="carte-body">
       <div class="theme">Lieu</div>
-      <div class="question">Où est-ce ?</div>
+      <div class="question">Le nom qui veut dire « fermé »</div>
       
 <span class="statut"><span class="dot dot-vert"></span>En cours</span>
 
@@ -165,12 +178,13 @@
   </a>
 </div>
 
-<div class="carte" data-theme="Phenomene" data-statut="ACTIVE">
+
+<div class="carte" data-theme="Phenomene" data-statut="ACTIVE" data-sujets="Géologie,Montagne">
   <a href="/astrolabis/enquete/marmites-de-geants-tines/">
-    <img src="https://placehold.co/1200x600/221b16/B85C00?text=Photo+a+venir" alt="Les trous parfaitement ronds dans la roche du torrent" loading="lazy">
+    
     <div class="carte-body">
       <div class="theme">Phénomène</div>
-      <div class="question">Qu&#39;est-ce que c&#39;est ?</div>
+      <div class="question">Les trous parfaitement ronds dans la roche du torrent</div>
       
 <span class="statut"><span class="dot dot-vert"></span>En cours</span>
 
@@ -178,12 +192,13 @@
   </a>
 </div>
 
-<div class="carte" data-theme="Phenomene" data-statut="ACTIVE">
+
+<div class="carte" data-theme="Phenomene" data-statut="ACTIVE" data-sujets="Archéologie,Montagne">
   <a href="/astrolabis/enquete/pierre-du-diable-cupules/">
-    <img src="https://placehold.co/1200x600/221b16/B85C00?text=Photo+a+venir" alt="Les creux ronds au sommet du gros rocher" loading="lazy">
+    
     <div class="carte-body">
       <div class="theme">Phénomène</div>
-      <div class="question">Qu&#39;est-ce que c&#39;est ?</div>
+      <div class="question">Les creux ronds au sommet du gros rocher</div>
       
 <span class="statut"><span class="dot dot-vert"></span>En cours</span>
 
@@ -196,14 +211,17 @@
 
 <script>
 (function () {
-  var etat = { theme: "", statut: "" };
+  var etat = { sujet: "", theme: "", statut: "" };
   var grille = document.getElementById("grille");
   var compteur = document.getElementById("compteur");
   var cartes = Array.prototype.slice.call(grille.querySelectorAll(".carte"));
   function appliquer() {
     var n = 0;
     cartes.forEach(function (c) {
-      var ok = (!etat.theme || c.dataset.theme === etat.theme) && (!etat.statut || c.dataset.statut === etat.statut);
+      var sujets = (c.getAttribute("data-sujets") || "").split(",");
+      var ok = (!etat.sujet || sujets.indexOf(etat.sujet) !== -1)
+            && (!etat.theme || c.dataset.theme === etat.theme)
+            && (!etat.statut || c.dataset.statut === etat.statut);
       c.style.display = ok ? "" : "none";
       if (ok) n++;
     });
