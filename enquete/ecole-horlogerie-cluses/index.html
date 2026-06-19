@@ -84,13 +84,29 @@
 
   
   
-  
-<section class="appel-contrib">
-  <p>Personne n'a encore trouvé.</p>
-  <p class="appel-sous">Tu as une idée ? Dépose ton hypothèse — elle sera vérifiée avant d'être ajoutée au dossier.</p>
-  <a class="btn" href="/astrolabis/hypothese/?m=Pourquoi%20cette%20petite%20ville%20a%20fabriqu%C3%A9%20des%20montres">Déposer une hypothèse</a>
-</section>
+  <section class="bloc registre" id="registre" data-slug="ecole-horlogerie-cluses" data-titre="Pourquoi cette petite ville a fabriqué des montres">
+    <span class="bloc-num">Le registre des hypothèses</span>
+    <h2>Les hypothèses proposées</h2>
+    <div id="hyp-liste"><p class="hyp-vide">Chargement…</p></div>
 
+    <div class="hyp-form-wrap">
+      <h3>Proposer une hypothèse</h3>
+      <p class="hyp-note">Ton hypothèse sera vérifiée avant d'être ajoutée au dossier.</p>
+      <form id="hyp-form">
+        <label>Ton hypothèse (qu'est-ce que c'est, selon toi, et pourquoi ?)
+          <textarea name="texte" rows="4" required=""></textarea></label>
+        <label>Une source ou un indice ? (facultatif)
+          <input name="source" type="text"></label>
+        <label>Ton pseudo
+          <input name="pseudo" type="text" required=""></label>
+        <label class="hyp-consent"><input type="checkbox" name="consent" required=""> J'accepte que mon hypothèse et mon pseudo soient publiés sur Astrolabis.</label>
+        <button class="btn" type="submit">Déposer mon hypothèse</button>
+        <p id="hyp-msg" class="hyp-msg" hidden=""></p>
+      </form>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="/astrolabis/assets/js/hypotheses.js"></script>
   
 
 </article>

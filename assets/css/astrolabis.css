@@ -186,3 +186,28 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; }
 .tout-voir { text-align: center; margin: 44px 0 12px; }
 .tout-voir a { color: var(--texte-faible); font-size: 0.9rem; }
 .tout-voir a:hover { color: var(--accent); }
+
+/* ---- Registre d'hypothèses (V1 interactive) ---- */
+.registre { margin-top: 8px; }
+.hyp-vide { color: var(--texte-faible); font-style: italic; }
+.hyp-carte { background: var(--bg-2); border: 1px solid var(--ligne); border-radius: 8px; padding: 16px 18px; margin: 12px 0; }
+.hyp-haut { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 8px; flex-wrap: wrap; }
+.hyp-statut { font-size: 0.72rem; letter-spacing: 0.5px; text-transform: uppercase; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--ligne); color: var(--texte-doux); }
+.hyp-statut.s-piste_serieuse { color: var(--vert); border-color: var(--vert); }
+.hyp-statut.s-contestee { color: var(--jaune); border-color: var(--jaune); }
+.hyp-statut.s-ecartee { color: var(--texte-faible); }
+.hyp-meta { font-size: 0.85rem; color: var(--texte-faible); }
+.hyp-texte { margin: 6px 0; }
+.hyp-src { font-size: 0.85rem; color: var(--texte-doux); margin: 4px 0 8px; }
+.hyp-soutenir { background: transparent; border: 1px solid var(--ligne); color: var(--texte-doux); padding: 5px 12px; border-radius: 999px; font-size: 0.82rem; cursor: pointer; }
+.hyp-soutenir:hover { border-color: var(--accent); color: var(--accent); }
+.hyp-form-wrap { margin-top: 30px; padding-top: 24px; border-top: 1px solid var(--ligne); }
+.hyp-form-wrap h3 { font-family: var(--serif); font-size: 1.2rem; margin: 0 0 4px; }
+.hyp-note { color: var(--texte-faible); font-size: 0.9rem; margin: 0 0 16px; }
+#hyp-form label { display: block; margin-bottom: 14px; font-size: 0.92rem; color: var(--texte-doux); }
+#hyp-form textarea, #hyp-form input[type="text"] { width: 100%; margin-top: 6px; background: var(--bg-2); border: 1px solid var(--ligne); border-radius: 6px; padding: 10px 12px; font-family: var(--sans); font-size: 1rem; color: var(--texte); box-sizing: border-box; }
+#hyp-form .hyp-consent { display: flex; align-items: flex-start; gap: 8px; }
+#hyp-form .hyp-consent input { margin-top: 3px; width: auto; }
+.hyp-msg { margin-top: 12px; font-size: 0.9rem; }
+.hyp-msg.ok { color: var(--vert); }
+.hyp-msg.err { color: #b3402a; }
