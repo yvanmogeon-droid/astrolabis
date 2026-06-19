@@ -211,3 +211,9 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; }
 .hyp-msg { margin-top: 12px; font-size: 0.9rem; }
 .hyp-msg.ok { color: var(--vert); }
 .hyp-msg.err { color: #b3402a; }
+
+/* ---- Page de modération ---- */
+#login-form label { display:block; margin-bottom:14px; font-size:0.92rem; color:var(--texte-doux); }
+#login-form input { width:100%; margin-top:6px; background:var(--bg-2); border:1px solid var(--ligne); border-radius:6px; padding:10px 12px; font-size:1rem; box-sizing:border-box; }
+.mod-actions { display:flex; gap:8px; flex-wrap:wrap; margin-top:10px; }
+.mod-actions .btn, .mod-actions .btn-ghost { padding:7px 14px; font-size:0.85rem; }
